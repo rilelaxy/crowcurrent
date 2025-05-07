@@ -1239,6 +1239,7 @@ GameObject:
   - component: {fileID: 347719298}
   - component: {fileID: 347719297}
   - component: {fileID: 347719299}
+  - component: {fileID: 347719300}
   m_Layer: 0
   m_Name: croww
   m_TagString: Player
@@ -1406,6 +1407,28 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.666366, y: 3.597372}
   m_EdgeRadius: 0
+--- !u!95 &347719300
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347719293}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f346ff1b226ae0e4eb0f9a2a4762904e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &551920980
 GameObject:
   m_ObjectHideFlags: 0
@@ -3032,7 +3055,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000061035156, y: -38.908997}
+  m_AnchoredPosition: {x: 0, y: -38.908936}
   m_SizeDelta: {x: 0.00012207, y: -1.8179}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &997071833
